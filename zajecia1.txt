@@ -1,0 +1,64 @@
+  501  git
+  502  git config --global user.name "Anna Gogolinska"
+  503  git config --global user.email "leii1306@gmail.com"
+  504  git config --global core.editor vim
+  505  git config --list
+  506  ls
+  508  mkdir repoLF
+  509  cd repoLF
+  510  ls
+  511  pwd
+  512  ls
+  513  git init
+  514  ls
+  515  ls -la
+  516  vim plik1.txt
+  517  vim plik2.txt
+  524  vim plik3.txt 
+  525  vim plik4.txt 
+  526  ls
+  527  git status
+  528  git add plik1.txt plik2.txt plik3.txt
+  529  git status
+  530  vim .gitignore
+  531  git status
+  532  git commit
+  533  vim plik1.txt
+  534  vim plik2.txt
+  535  git status
+  536  git add plik1.txt
+  537  git status
+  538  git diff
+  539  git diff plik1.txt
+  540  git diff plik2.txt
+  541  git diff --staged
+  542  git rm --cached plik1.txt
+  543  git status
+  544  git rm plik2.txt
+  545  git rm -f plik2.txt
+  546  git status
+  547  ls
+  548  git add plik1.txt
+  549  git commit
+  550  ls
+  551  vim plik1.txt
+  552  git commit -a
+  553  vim plik1.txt
+  554  git add plik1.txt
+  555  git commit -m "dodanie linii fff w plik1"
+  556  vim plik1.txt
+  557  git add plik1.txt
+  558  git commit -m "dodanie linii ggg w plik1"
+  559  git log
+  560  git add plik1.txt
+  561  vim plik1.txt
+  562  git add plik1.txt
+  563  git commit -m "dodanie linii hh w plik1"
+  564  git log
+  565  vim plik1.txt
+  572  git checkout -- plik1.txt
+  574  cat plik1.txt
+  575  git log
+  576  git checkout 538004652e44e4169cd0696e18e8084d65a7f930 -- plik1.txt
+  577  cat plik1.txt
+  578  history 100 > zajecia1.txt
